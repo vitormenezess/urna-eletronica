@@ -4,8 +4,14 @@ let = etapas = [
     numeros: 5,
     candidatos: [
       {
-        numero: 38111,
-        nome: "Bolsonaro",
+        numero: "38111",
+        nome: "Kim",
+        partido: "ABC",
+        fotos: [{ url: "guaxinin.jpg", legenda: "deputado" }],
+      },
+      {
+        numero: "38222",
+        nome: "bolsonaro",
         partido: "ABC",
         fotos: [
           {
@@ -18,16 +24,16 @@ let = etapas = [
   },
   {
     titulo: "PRESIDENTE",
-    numero: 2,
+    numeros: 2,
     candidatos: [
       {
-        numero: 13,
+        numero: "13",
         nome: "luis",
         partido: "QQQ",
-        vicePresidente:"Guaxinin",
+        vicePresidente: "Guaxinin",
         fotos: [
-          { url: "luis.jfg", legenda: "Presidente", vice: true },
-          { url: "guaxinin.jfg", legenda: "Vice-Presidente", vice: true },
+          { url: "luis.jpg", legenda: "Presidente"},
+          { url: "guaxinin.jpg", legenda: "Vice-Presidente", vice: true },
         ],
       },
     ],
